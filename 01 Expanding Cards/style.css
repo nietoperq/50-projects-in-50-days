@@ -1,0 +1,82 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap");
+
+/*=============== VARIABLES ===============*/
+
+:root {
+  --light-grey: #e2e3e6;
+  --dark-grey: #6c6c75;
+  --accent-color: rgb(185, 52, 134);
+}
+
+/*=============== BASE ===============*/
+
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background: var(--light-grey);
+  color: var(--dark-grey);
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  max-width: 500px;
+}
+
+.panel {
+  position: relative;
+  border-radius: 20px;
+  background: var(--light-grey);
+  height: 48px;
+  margin: 10px;
+  box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.6),
+    5px 5px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: flex 0.5s linear;
+  overflow: hidden;
+}
+
+.panel.active {
+  flex-grow: 5;
+}
+
+.setting-title {
+  display: flex;
+  margin: 12px 20px;
+}
+
+.setting-title h3 {
+  margin: 0 10px;
+}
+
+.panel.active .setting-title {
+  color: var(--accent-color);
+}
+
+.setting-content {
+  opacity: 0;
+  margin: 16px 20px;
+  line-height: 28px;
+  transition: opacity 0.2s ease-in;
+}
+
+.panel.active .setting-content {
+  opacity: 1;
+  transition: opacity 0.2s ease-in 0.3s;
+}
