@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== FONT AWESOME ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css" />
+    <title>Progress Steps</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="progress-container">
+        <div class="progress" id="progress"></div>
+        <div class="circle active">
+          <i class="icon fa-solid fa-ghost"></i>
+
+          <div class="caption">ghost</div>
+        </div>
+        <div class="circle">
+          <i class="icon fa-solid fa-cat"></i>
+
+          <div class="caption">cat</div>
+        </div>
+        <div class="circle">
+          <i class="icon fa-solid fa-spider"></i>
+
+          <div class="caption">spider</div>
+        </div>
+        <div class="circle">
+          <i class="icon fa-solid fa-skull"></i>
+
+          <div class="caption">skull</div>
+        </div>
+      </div>
+
+      <button class="btn" id="prev" disabled>Prev</button>
+      <button class="btn" id="next">Next</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

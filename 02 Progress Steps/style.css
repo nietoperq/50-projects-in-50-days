@@ -1,0 +1,122 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/*=============== VARIABLES ===============*/
+
+:root {
+  --background-color: #eeeeee;
+  --light-grey: #c4c1c1;
+  --accent-color: #b036e0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-size: 16px;
+  background-color: var(--background-color);
+}
+
+.container {
+  text-align: center;
+}
+
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 60px;
+  max-width: 100%;
+  width: 350px;
+}
+
+.progress-container::before {
+  content: "";
+  background-color: var(--light-grey);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 100%;
+  z-index: -1;
+}
+
+.progress {
+  background-color: var(--accent-color);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 0%;
+  z-index: -1;
+  transition: 0.4s ease;
+}
+
+.circle {
+  background: var(--light-grey);
+  color: var(--light-grey);
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid var(--light-grey);
+  transition: 0.4s ease;
+}
+
+.circle.active {
+  border-color: var(--accent-color);
+  background-color: #fff;
+  color: var(--accent-color);
+  scale: 1.1;
+}
+
+.circle .icon {
+  position: absolute;
+  font-size: 25px;
+  bottom: 25px;
+}
+
+.circle .caption {
+  position: absolute;
+  font-size: 14px;
+  font-weight: bolder;
+  bottom: -30px;
+}
+
+.btn {
+  background: var(--accent-color);
+  color: #fff;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 8px 30px;
+  margin: 5px;
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:disabled {
+  background-color: var(--light-grey);
+  cursor: not-allowed;
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    width: 85%;
+  }
+}
