@@ -1,0 +1,119 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  font-size: 24px;
+  background-color: #eeeeee;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-stack {
+  width: 300px;
+  height: 400px;
+  position: relative;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  position: absolute;
+  color: rgba(255, 255, 255, 0);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transform-origin: bottom center;
+  transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:nth-child(1) {
+  background-color: #897085;
+}
+
+.card:nth-child(2) {
+  background-color: #d18e9f;
+}
+
+.card:nth-child(3) {
+  background-color: #ffffff;
+}
+
+.card-stack.opened .card:hover {
+  cursor: pointer;
+}
+
+.card-stack.opened .card:nth-child(1) {
+  transform: rotate(-10deg);
+}
+
+.card-stack.opened .card:nth-child(2) {
+  transform: rotate(10deg);
+}
+
+.card-stack.opened .card {
+  color: #897085;
+}
+
+.card-stack.opened .card:nth-child(1):hover {
+  transform: rotate(-10deg) translateY(-20px);
+}
+
+.card-stack.opened .card:nth-child(2):hover {
+  transform: rotate(10deg) translateY(-20px);
+}
+
+.card-stack.opened .card:nth-child(3):hover {
+  transform: translateY(-20px);
+}
+
+.nav-circle {
+  width: 120px;
+  height: 120px;
+  background: #897085;
+  box-shadow: rgba(100, 100, 111, 0.288) 0px 0px 29px 0px;
+  position: fixed;
+  bottom: -65px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  border: 0;
+  transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.nav-circle:hover {
+  scale: 1.05;
+}
+
+.nav-circle.opened {
+  transform: rotate(180deg);
+}
+
+.nav-circle button {
+  cursor: pointer;
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  background: transparent;
+  border: 0;
+  font-size: 30px;
+  color: #fff;
+}
+
+.nav-circle button#open {
+  left: 25%;
+}
+
+.nav-circle button#close {
+  left: 25%;
+  top: 50%;
+}
