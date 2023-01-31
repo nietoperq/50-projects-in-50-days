@@ -1,0 +1,93 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --accent-color: #b036e0;
+}
+
+* {
+  box-sizing: border-box;
+  transition: all 0.5s ease;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.search .input {
+  background-color: transparent;
+  outline: 0;
+  border: 5px solid var(--accent-color);
+  border-radius: 25px;
+  font-size: 18px;
+  padding: 15px;
+  height: 50px;
+  width: 50px;
+  transition: width 0.5s ease;
+  cursor: pointer;
+}
+
+.search .input:focus {
+  outline: none;
+}
+
+.search .input::placeholder {
+  opacity: 0;
+}
+
+.search.active .input {
+  width: 250px;
+  border-radius: 25px;
+}
+
+.search.active .input::placeholder {
+  opacity: 1;
+}
+
+.reset {
+  border: 0;
+  background: transparent;
+  padding: 15px 5px;
+  transform: rotate(45deg) translateY(35px) translateX(5px);
+}
+
+.handle {
+  border: 0;
+  width: 30px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: var(--accent-color);
+}
+
+.search.active .reset {
+  transform: rotate(-45deg) translateY(10px) translateX(10px);
+  cursor: pointer;
+}
+
+.search .handle:after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: var(--accent-color);
+  transition: all 0.3s ease;
+}
+
+.search.active .handle:after {
+  transform: rotate(90deg);
+  transition: all 0.3s ease;
+}
