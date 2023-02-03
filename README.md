@@ -12,3 +12,4 @@ Based on projects from Brad Traversy and Florin Pop's course: [50 Projects in 50
 | 04 | [Hidden Search Widget](https://github.com/nietoperq/50-projects-in-50-days/tree/main/04%20Hidden%20Search%20Widget) | [Live Demo](https://codepen.io/nietoperq/full/wvxYKNw) |
 | 05 | [Blurry Loading](https://github.com/nietoperq/50-projects-in-50-days/tree/main/05%20Blurry%20Loading) | [Live Demo](https://codepen.io/nietoperq/full/LYBgdwr) |
 | 06 | [Scroll Animation](https://github.com/nietoperq/50-projects-in-50-days/tree/main/06%20Scroll%20Animation) | [Live Demo](https://codepen.io/nietoperq/full/NWBEBqB) |
+| 07 | [Split Landing Page](https://github.com/nietoperq/50-projects-in-50-days/tree/main/07%20Split%20Landing%20Page) | [Live Demo](https://codepen.io/nietoperq/full/PoBVNBz) |
