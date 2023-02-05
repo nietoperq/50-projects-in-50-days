@@ -1,0 +1,42 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  margin: 0;
+  background: #eeeeee;
+}
+
+.btn {
+  font-family: inherit;
+  width: 120px;
+  height: 120px;
+  margin: 15px;
+  border: none;
+  outline: none;
+  background: linear-gradient(to top, #ffffff, #eeeeee);
+  border-radius: 50%;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #b7c0ca;
+  cursor: pointer;
+  box-shadow:
+    8px 8px 12px 0 rgba(0, 0, 0, 0.05),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.6);
+}
+
+.btn:active {
+  scale: 0.95;
+}
+
+.btn:focus {
+  color: #c7a4c9;
+}
