@@ -15,3 +15,4 @@ Based on projects from Brad Traversy and Florin Pop's course: [50 Projects in 50
 | 07 | [Split Landing Page](https://github.com/nietoperq/50-projects-in-50-days/tree/main/07%20Split%20Landing%20Page) | [Live Demo](https://codepen.io/nietoperq/full/PoBVNBz) |
 | 08 | [Form Wave Animation](https://github.com/nietoperq/50-projects-in-50-days/tree/main/08%20Form%20Wave%20Animation) | [Live Demo](https://codepen.io/nietoperq/full/dyjrymM) |
 | 09 | [Sound Board](https://github.com/nietoperq/50-projects-in-50-days/tree/main/09%20Sound%20Board) | [Live Demo](https://codepen.io/nietoperq/full/OJwqOGO) |
+| 10 | [Dad Jokes](https://github.com/nietoperq/50-projects-in-50-days/tree/main/10%20Dad%20Jokes) | [Live Demo](https://codepen.io/nietoperq/full/eYjooZX) |

@@ -1,0 +1,147 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --accent-color: #a876aa;
+  --background-color: #eeeeee;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--background-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  height: 800px;
+  width: 600px;
+  max-height: 90%;
+}
+
+.container p {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  color: var(--accent-color);
+}
+
+.header .avatar {
+  background-color: var(--accent-color);
+  align-self: center;
+  padding: 5px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.header h3 {
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+.header i {
+  margin: 0 10px;
+}
+
+.chat {
+  background-color: #fff;
+  height: 100%;
+  overflow: auto;
+  padding: 10px;
+}
+
+.message {
+  font-size: 16px;
+  line-height: 25px;
+  width: fit-content;
+  max-width: 450px;
+  margin: 20px 10px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.message.joke {
+  background-color: var(--accent-color);
+  color: #fff;
+  border-top-left-radius: 0px;
+  padding-left: 30px;
+}
+
+.message.response {
+  background-color: #eee;
+  border-top-right-radius: 0px;
+  margin-left: auto;
+  padding-right: 30px;
+}
+
+.btn {
+  display: flex;
+  background-color: #eee;
+  color: var(--accent-color);
+  font-family: inherit;
+  border: 0;
+  border-radius: 50px;
+  padding: 14px 40px;
+  margin: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: scale 0.2s ease;
+}
+
+.btn i {
+  margin-left: auto;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  scale: 1.01;
+}
+
+.btn:active {
+  scale: 0.99;
+}
+
+/*=============== SCROLLBAR ===============*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #eee;
+  border-radius: 5px;
+}
+
+/*=============== MEDIA QUERY ===============*/
+
+@media screen and (max-width: 650px) {
+  .container {
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+  }
+}
