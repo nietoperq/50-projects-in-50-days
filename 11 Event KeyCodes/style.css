@@ -1,0 +1,103 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#insert {
+  margin-bottom: 50px;
+}
+
+.box {
+  background-color: #eee;
+  color: #666;
+  font-weight: 300;
+  display: inline-flex;
+  align-items: center;
+  font-size: 20px;
+  padding: 20px;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 10px;
+  min-width: 150px;
+  position: relative;
+}
+
+.box small {
+  position: absolute;
+  top: -24px;
+  color: #aaa;
+}
+
+.keyboard {
+  background: #eee;
+  position: relative;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.row {
+  display: flex;
+}
+
+.key {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  color: #bbb;
+  border-radius: 5px;
+  padding-top: 5px;
+  margin: 5px;
+  text-shadow: #fff 1px 0 10px;
+  box-shadow: #ffffffad 0px 1px 3px;
+  font-weight: 500;
+  transition: .2s ease;
+}
+
+.backspace-key {
+  width: 100px;
+}
+
+.tab-key {
+  width: 75px;
+}
+
+.slash-key {
+  width: 75px;
+}
+
+.capslock-key {
+  width: 100px;
+}
+
+.enter-key {
+  width: 110px;
+}
+
+.shift-key-l {
+  width: 130px;
+}
+
+.shift-key-r {
+  width: 140px;
+}
+
+.space-key {
+  width: 460px;
+}
+
+.fn-key {
+  width: 60px;
+}
