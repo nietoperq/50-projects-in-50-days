@@ -17,3 +17,4 @@ Based on projects from Brad Traversy and Florin Pop's course: [50 Projects in 50
 | 09 | [Sound Board](https://github.com/nietoperq/50-projects-in-50-days/tree/main/09%20Sound%20Board) | [Live Demo](https://codepen.io/nietoperq/full/OJwqOGO) |
 | 10 | [Dad Jokes](https://github.com/nietoperq/50-projects-in-50-days/tree/main/10%20Dad%20Jokes) | [Live Demo](https://codepen.io/nietoperq/full/eYjooZX) |
 | 11 | [Event KeyCodes](https://github.com/nietoperq/50-projects-in-50-days/tree/main/11%20Event%20KeyCodes) | [Live Demo](https://codepen.io/nietoperq/full/oNMrbEj) |
+| 12 | [FAQ Collapse](https://github.com/nietoperq/50-projects-in-50-days/tree/main/12%20FAQ%20Collapse) | [Live Demo](https://codepen.io/nietoperq/full/xxJvVxb) |
