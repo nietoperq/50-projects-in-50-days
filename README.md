@@ -20,3 +20,4 @@ Based on projects from Brad Traversy and Florin Pop's course: [50 Projects in 50
 | 12 | [FAQ Collapse](https://github.com/nietoperq/50-projects-in-50-days/tree/main/12%20FAQ%20Collapse) | [Live Demo](https://codepen.io/nietoperq/full/xxJvVxb) |
 | 13 | [Random Choice Picker](https://github.com/nietoperq/50-projects-in-50-days/tree/main/13%20Random%20Choice%20Picker) | [Live Demo](https://codepen.io/nietoperq/full/gOjVdPb) |
 | 14 | [Animated Navigation](https://github.com/nietoperq/50-projects-in-50-days/tree/main/14%20Animated%20Navigation) | [Live Demo](https://codepen.io/nietoperq/full/PodYXQq) |
+| 15 | [Incrementing Counter](https://github.com/nietoperq/50-projects-in-50-days/tree/main/15%20Incrementing%20Counter) | [Live Demo](https://codepen.io/nietoperq/full/RwYwVPP) |

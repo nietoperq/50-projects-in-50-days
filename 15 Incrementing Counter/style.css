@@ -1,0 +1,127 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --accent-color: #a876aa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  position: relative;
+}
+
+.floating-heart {
+  position: absolute;
+  animation: 2s linear heart normal infinite;
+  top: 49%;
+  color: var(--accent-color);
+  font-size: 50px;
+  z-index: -1;
+}
+
+.floating-heart:nth-child(1) {
+  left: calc(50% - 50px);
+  scale: 1.1;
+}
+
+.floating-heart:nth-child(2) {
+  left: calc(50% - 25px);
+  animation-delay: 0.66s;
+}
+
+.floating-heart:nth-child(3) {
+  left: 50%;
+  animation-delay: 1.33s;
+  scale: 1.2;
+}
+
+@keyframes heart {
+  0% {
+    transform: rotate(10deg);
+    opacity: 0;
+  }
+
+  25% {
+    transform: rotate(-10deg);
+    opacity: 1;
+  }
+
+  75% {
+    transform: rotate(10deg);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: rotate(-10deg);
+    opacity: 0;
+    top: 10%;
+  }
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent-color);
+  color: #fff;
+  border-radius: 50px;
+  position: relative;
+
+}
+
+.box::before {
+  content: '';
+  position: absolute;
+  top: 160%;
+  width: 30%;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  filter: blur(1px);
+}
+
+.box::after {
+  content: '';
+  position: absolute;
+  background-color: var(--accent-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  top: calc(100% - 25px);
+  transform: rotate(45deg);
+}
+
+.counter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  font-size: 30px;
+}
+
+.counter-container i {
+  margin: 10px;
+  font-size: 40px;
+}
+
+.counter-container .counter {
+  width: 75px;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 650px) {
+  body {
+    scale: 0.6;
+  }
+}
