@@ -1,0 +1,226 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+    --primary-color: #181625;
+    --secondary-color: #403c55;
+    --accent-color: rgb(168, 118, 170);
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+header {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 900;
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+.search {
+    background-color: transparent;
+    border: 1px solid var(--secondary-color);
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.search::placeholder {
+    color: var(--secondary-color);
+}
+
+.search:focus {
+    outline: none;
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+}
+
+.most-popular {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.horizontal-list {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+.watch-now,
+.watch-later {
+    color: var(--primary-color);
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 100px;
+}
+
+.watch-now {
+    padding: .5rem 1rem;
+}
+
+.watch-later {
+    padding: .5rem .7rem;
+}
+
+.movie-l {
+    width: 50rem;
+    position: relative;
+    margin: 1rem 1em 2rem 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 25rem;
+}
+
+.movie-l::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(9, 1, 31, 0.719), rgba(0, 0, 0, 0));
+    z-index: 1;
+}
+
+.movie-l .movie-info {
+    position: absolute;
+    padding: 2rem;
+    top: 25%;
+    z-index: 2;
+}
+
+.movie-l .overview.visible {
+    font-size: 14px;
+    padding: 2rem;
+    position: absolute;
+    top: 35%;
+    width: 60%;
+    z-index: 2;
+}
+
+.recommended,
+.searched {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.recommended h2 {
+    width: 100%;
+    margin: 2rem 1rem 0 1rem;
+}
+
+.movie-s img,
+.movie-l img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.movie-s {
+    flex: 1;
+    min-width: 300px;
+    margin: 1rem;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.movie-s .movie-info {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 0.5rem;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+
+.movie-s .movie-info h3 {
+    margin-top: 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    /* Set the maximum number of lines before truncating */
+    overflow: hidden;
+}
+
+.movie-s .movie-info span {
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+
+.movie-s .overview.hidden {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    top: 0;
+    bottom: 0;
+    font-size: 12px;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.281));
+    position: absolute;
+    padding: 1rem;
+    opacity: 0;
+    transition: opacity .5s ease;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    z-index: 100;
+}
+
+.movie-s .overview.hidden p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+
+.movie-s .overview.hidden h3 {
+    margin: 0;
+}
+
+
+.movie-s:hover .overview.hidden {
+    opacity: 1;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f100;
+}
+
+::-webkit-scrollbar-track:horizontal {
+    margin: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--secondary-color);
+    border-radius: 100px;
+}
+
+.horizontal-list::-webkit-scrollbar-track {
+    margin: 1rem;
+}
