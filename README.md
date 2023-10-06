@@ -23,3 +23,4 @@ Based on projects from Brad Traversy and Florin Pop's course: [50 Projects in 50
 | 15 | [Incrementing Counter](https://github.com/nietoperq/50-projects-in-50-days/tree/main/15%20Incrementing%20Counter) | [Live Demo](https://codepen.io/nietoperq/full/RwYwVPP) |
 | 16 | [Drink Water](https://github.com/nietoperq/50-projects-in-50-days/tree/main/16%20Drink%20Water) | [Live Demo](https://codepen.io/nietoperq/full/YzOVgON) |
 | 17 | [Movie App](https://github.com/nietoperq/50-projects-in-50-days/tree/main/17%20Movie%20App) | [Live Demo](https://codepen.io/nietoperq/full/zYyMoME) |
+| 18 | [Background Slider](https://github.com/nietoperq/50-projects-in-50-days/tree/main/18%20Background%20Slider) | [Live Demo](https://codepen.io/nietoperq/full/PoXxgYb) |
