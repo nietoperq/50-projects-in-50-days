@@ -1,0 +1,98 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --primary-color: #181625;
+  --secondary-color: #403c55;
+  --to-do: #a876aa;
+  --in-progress: #52a0b8;
+  --completed: #97b66f;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--primary-color);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.tasks-container {
+  display: flex;
+  gap: 50px;
+}
+
+.tasks-container h2 {
+  padding-left: 10px;
+  line-height: 22px;
+}
+
+.to-do h2 {
+  border-left: 4px solid var(--to-do);
+}
+
+.in-progress h2 {
+  border-left: 4px solid var(--in-progress);
+}
+
+.completed h2 {
+  border-left: 4px solid var(--completed);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 400px;
+  width: 200px;
+  transition: 0.2s ease;
+}
+
+.task {
+  position: relative;
+  background: var(--secondary-color);
+  padding: 10px;
+  cursor: grab;
+  border-radius: 10px;
+}
+
+.task h3 {
+  margin: 5px 0;
+}
+
+.icon {
+  position: absolute;
+  right: 10px;
+}
+
+.to-do .icon {
+  color: var(--to-do);
+}
+
+.in-progress .icon {
+  color: var(--in-progress);
+}
+
+.completed .icon {
+  color: var(--completed);
+}
+
+.hold {
+  border: solid 2px #ccc;
+}
+
+.hovered {
+  background: rgba(255, 255, 255, 0.103);
+  border-radius: 10px;
+  transition: 0.2s ease;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="style.css" />
+  <!--=============== FONT AWESOME ===============-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <title>Drag N Drop</title>
+</head>
+
+<body>
+  <p>Drag and drop a task to change the category</p>
+  <div class="tasks-container">
+    <div class="category to-do">
+      <h2>To do</h2>
+      <div class="list">
+        <div class="task" draggable="true">
+          <div class="icon"><i class="fa-regular fa-circle"></i></div>
+          <h3>Task 1</h3>
+          Lorem ipsum dolor sit amet...
+        </div>
+        <div class="task" draggable="true">
+          <div class="icon"><i class="fa-regular fa-circle"></i></div>
+          <h3>Task 2</h3>
+          Lorem ipsum dolor sit amet...
+        </div>
+      </div>
+    </div>
+    <div class="category in-progress">
+      <h2>In progress</h2>
+      <div class="list">
+        <div class="task" draggable="true">
+          <div class="icon"><i class="fa-solid fa-circle-half-stroke"></i></div>
+          <h3>Task 3</h3>
+          Lorem ipsum dolor sit amet...
+        </div>
+      </div>
+    </div>
+    <div class="category completed">
+      <h2>Completed</h2>
+      <div class="list"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
