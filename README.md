@@ -2,7 +2,7 @@
 
 A collection of mini web projects written in plain HTML, CSS and JavaScript.
 
-Based on projects from Brad Traversy and Florin Pop's course: [50 Projects in 50 Days - HTML, CSS, and JavaScript](https://learning.oreilly.com/videos/50-projects-in/9781801079976/).
+Based on projects from Brad Traversy and Florin Pop's course: [50 Projects in 50 Days - HTML, CSS, and JavaScript](https://50projects50days.com/).
 
 | # | Project | Live Demo |
 | :-: | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
