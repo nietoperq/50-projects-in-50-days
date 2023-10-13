@@ -1,0 +1,69 @@
+:root {
+  --primary-color: #181625;
+  --secondary-color: #403c55;
+  --accent-color: #a876aa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+canvas {
+  background-color: #fff;
+  border-radius: 20px;
+  cursor: crosshair;
+
+}
+
+.toolbox {
+  background-color: var(--secondary-color);
+  display: flex;
+  width: 604px;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 20px;
+}
+
+.toolbox * {
+  color: #fff;
+  background-color: transparent;
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin: .5rem;
+  padding: .25rem;
+  cursor: pointer;
+}
+
+.toolbox button {
+  background-color: var(--accent-color);
+  transition: 0.2s ease;
+}
+
+.toolbox button:last-child {
+  margin-left: auto;
+}
+
+.toolbox button:hover {
+  scale: 1.1;
+}
+
+.toolbox button:active {
+  scale: 1;
+}
