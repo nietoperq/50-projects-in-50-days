@@ -29,3 +29,4 @@ Based on projects from Brad Traversy and Florin Pop's course: [50 Projects in 50
 | 21  | [Drag N Drop](https://github.com/nietoperq/50-projects-in-50-days/tree/main/21%20Drag%20N%20Drop)                         | [Live Demo](https://codepen.io/nietoperq/full/poqYdOy) |
 | 22  | [Drawing App](https://github.com/nietoperq/50-projects-in-50-days/tree/main/22%20Drawing%20App)                           | [Live Demo](https://codepen.io/nietoperq/full/vYvMbWG) |
 | 23  | [Kinetic CSS Loader](https://github.com/nietoperq/50-projects-in-50-days/tree/main/23%20Kinetic%20CSS%20Loader)                           | [Live Demo](https://codepen.io/nietoperq/full/jOXoGPm) |
+| 24  | [Content Placeholder](https://github.com/nietoperq/50-projects-in-50-days/tree/main/24%20Content%20Placeholder)                           | [Live Demo](https://codepen.io/nietoperq/full/KKJPMQo) |
