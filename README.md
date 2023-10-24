@@ -2,7 +2,7 @@
 
 A collection of mini web projects written in plain HTML, CSS and JavaScript.
 
-Based on projects from Brad Traversy and Florin Pop's course: [50 Projects in 50 Days - HTML, CSS, and JavaScript](https://learning.oreilly.com/videos/50-projects-in/9781801079976/).
+Based on projects from Brad Traversy and Florin Pop's course: [50 Projects in 50 Days - HTML, CSS, and JavaScript](https://50projects50days.com/).
 
 |  #  | Project                                                                                                                   | Live Demo                                              |
 | :-: | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
@@ -30,3 +30,4 @@ Based on projects from Brad Traversy and Florin Pop's course: [50 Projects in 50
 | 22  | [Drawing App](https://github.com/nietoperq/50-projects-in-50-days/tree/main/22%20Drawing%20App)                           | [Live Demo](https://codepen.io/nietoperq/full/vYvMbWG) |
 | 23  | [Kinetic CSS Loader](https://github.com/nietoperq/50-projects-in-50-days/tree/main/23%20Kinetic%20CSS%20Loader)                           | [Live Demo](https://codepen.io/nietoperq/full/jOXoGPm) |
 | 24  | [Content Placeholder](https://github.com/nietoperq/50-projects-in-50-days/tree/main/24%20Content%20Placeholder)                           | [Live Demo](https://codepen.io/nietoperq/full/KKJPMQo) |
+| 25  | [Sticky Navbar](https://github.com/nietoperq/50-projects-in-50-days/tree/main/25%20Sticky%20Navbar)                           | [Live Demo](https://codepen.io/nietoperq/full/poGJvbp) |
