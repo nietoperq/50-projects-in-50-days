@@ -1,0 +1,118 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --primary-color: #a876aa;
+  --success-color: #74ad5a;
+  --error-color: #db5b81;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.btn {
+  background-color: #fff;
+  color: var(--primary-color);
+  font-family: inherit;
+  font-weight: bold;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+#toasts {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.toast {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  color: #929292;
+  font-size: 14px;
+  min-width: 500px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transform: translateX(150%);
+  animation: slideIn 4s ease-in-out;
+}
+
+.toast i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.toast span {
+  display: block;
+  font-weight: 800;
+  color: #000;
+}
+
+.toast.info {
+  border-left: 5px solid var(--primary-color);
+}
+
+.toast.info i {
+  color: var(--primary-color);
+}
+
+.toast.success {
+  border-left: 5px solid var(--success-color);
+}
+
+.toast.success i {
+  color: var(--success-color);
+}
+
+.toast.error {
+  border-left: 5px solid var(--error-color);
+}
+
+.toast.error i {
+  color: var(--error-color);
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(150%);
+  }
+
+  10%,
+  90% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}

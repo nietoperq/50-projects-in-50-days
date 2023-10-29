@@ -32,3 +32,4 @@ Based on projects from Brad Traversy and Florin Pop's course: [50 Projects in 50
 | 24  | [Content Placeholder](https://github.com/nietoperq/50-projects-in-50-days/tree/main/24%20Content%20Placeholder)                           | [Live Demo](https://codepen.io/nietoperq/full/KKJPMQo) |
 | 25  | [Sticky Navbar](https://github.com/nietoperq/50-projects-in-50-days/tree/main/25%20Sticky%20Navbar)                           | [Live Demo](https://codepen.io/nietoperq/full/poGJvbp) |
 | 26  | [Double Vertical Slider](https://github.com/nietoperq/50-projects-in-50-days/tree/main/26%20Double%20Vertical%20Slider)                           | [Live Demo](https://codepen.io/nietoperq/full/BaMoYYr) |
+| 27  | [Toast Notification](https://github.com/nietoperq/50-projects-in-50-days/tree/main/27%20Toast%20Notification)                           | [Live Demo](https://codepen.io/nietoperq/full/LYqGKaO) |
