@@ -1,0 +1,140 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.user-form {
+  width: 400px;
+}
+
+.user-form input {
+  width: 100%;
+  display: block;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  font-family: inherit;
+  font-size: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.user-form input::placeholder {
+  color: #bbb;
+}
+
+.user-form input:focus {
+  outline: none;
+}
+
+.card {
+  position: relative;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 2rem;
+  margin: 0 1.5rem;
+  z-index: 0;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 130px;
+  z-index: -1;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  border: 5px solid #fff;
+  object-fit: cover;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-info h2 {
+  margin: 1rem;
+}
+
+.user-info p {
+  font-size: 0.9rem;
+  color: #bbb;
+  margin: 0;
+}
+
+.user-info ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 100%;
+}
+
+.user-info ul li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding: 0 1rem;
+}
+
+.user-info ul li:not(:first-child) {
+  border-left: 1px solid #ccc;
+}
+
+.user-info ul li span {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #bbb;
+}
+
+#repos {
+  margin-top: 1rem;
+}
+
+.repo {
+  text-decoration: none;
+  color: #fff;
+  background-color: #111;
+  font-size: 0.8rem;
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem;
+  border-radius: 1rem;
+  display: inline-block;
+}
