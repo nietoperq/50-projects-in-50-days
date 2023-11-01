@@ -34,3 +34,4 @@ Based on projects from Brad Traversy and Florin Pop's course: [50 Projects in 50
 | 26  | [Double Vertical Slider](https://github.com/nietoperq/50-projects-in-50-days/tree/main/26%20Double%20Vertical%20Slider)                           | [Live Demo](https://codepen.io/nietoperq/full/BaMoYYr) |
 | 27  | [Toast Notification](https://github.com/nietoperq/50-projects-in-50-days/tree/main/27%20Toast%20Notification)                           | [Live Demo](https://codepen.io/nietoperq/full/LYqGKaO) |
 | 28  | [Github Profiles](https://github.com/nietoperq/50-projects-in-50-days/tree/main/28%20Github%20Profiles)                           | [Live Demo](https://codepen.io/nietoperq/full/KKJzeRo) |
+| 29  | [Double Click Heart](https://github.com/nietoperq/50-projects-in-50-days/tree/main/29%20Double%20Click%20Heart)                           | [Live Demo](https://codepen.io/nietoperq/full/JjxKNKm) |
