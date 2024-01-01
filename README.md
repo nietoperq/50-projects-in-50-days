@@ -28,10 +28,11 @@ Based on projects from Brad Traversy and Florin Pop's course: [50 Projects in 50
 | 20  | [Button Ripple Effect](https://github.com/nietoperq/50-projects-in-50-days/tree/main/20%20Button%20Ripple%20Effect)       | [Live Demo](https://codepen.io/nietoperq/full/qBLgweB) |
 | 21  | [Drag N Drop](https://github.com/nietoperq/50-projects-in-50-days/tree/main/21%20Drag%20N%20Drop)                         | [Live Demo](https://codepen.io/nietoperq/full/poqYdOy) |
 | 22  | [Drawing App](https://github.com/nietoperq/50-projects-in-50-days/tree/main/22%20Drawing%20App)                           | [Live Demo](https://codepen.io/nietoperq/full/vYvMbWG) |
-| 23  | [Kinetic CSS Loader](https://github.com/nietoperq/50-projects-in-50-days/tree/main/23%20Kinetic%20CSS%20Loader)                           | [Live Demo](https://codepen.io/nietoperq/full/jOXoGPm) |
-| 24  | [Content Placeholder](https://github.com/nietoperq/50-projects-in-50-days/tree/main/24%20Content%20Placeholder)                           | [Live Demo](https://codepen.io/nietoperq/full/KKJPMQo) |
-| 25  | [Sticky Navbar](https://github.com/nietoperq/50-projects-in-50-days/tree/main/25%20Sticky%20Navbar)                           | [Live Demo](https://codepen.io/nietoperq/full/poGJvbp) |
-| 26  | [Double Vertical Slider](https://github.com/nietoperq/50-projects-in-50-days/tree/main/26%20Double%20Vertical%20Slider)                           | [Live Demo](https://codepen.io/nietoperq/full/BaMoYYr) |
-| 27  | [Toast Notification](https://github.com/nietoperq/50-projects-in-50-days/tree/main/27%20Toast%20Notification)                           | [Live Demo](https://codepen.io/nietoperq/full/LYqGKaO) |
-| 28  | [Github Profiles](https://github.com/nietoperq/50-projects-in-50-days/tree/main/28%20Github%20Profiles)                           | [Live Demo](https://codepen.io/nietoperq/full/KKJzeRo) |
-| 29  | [Double Click Heart](https://github.com/nietoperq/50-projects-in-50-days/tree/main/29%20Double%20Click%20Heart)                           | [Live Demo](https://codepen.io/nietoperq/full/JjxKNKm) |
+| 23  | [Kinetic CSS Loader](https://github.com/nietoperq/50-projects-in-50-days/tree/main/23%20Kinetic%20CSS%20Loader)           | [Live Demo](https://codepen.io/nietoperq/full/jOXoGPm) |
+| 24  | [Content Placeholder](https://github.com/nietoperq/50-projects-in-50-days/tree/main/24%20Content%20Placeholder)           | [Live Demo](https://codepen.io/nietoperq/full/KKJPMQo) |
+| 25  | [Sticky Navbar](https://github.com/nietoperq/50-projects-in-50-days/tree/main/25%20Sticky%20Navbar)                       | [Live Demo](https://codepen.io/nietoperq/full/poGJvbp) |
+| 26  | [Double Vertical Slider](https://github.com/nietoperq/50-projects-in-50-days/tree/main/26%20Double%20Vertical%20Slider)   | [Live Demo](https://codepen.io/nietoperq/full/BaMoYYr) |
+| 27  | [Toast Notification](https://github.com/nietoperq/50-projects-in-50-days/tree/main/27%20Toast%20Notification)             | [Live Demo](https://codepen.io/nietoperq/full/LYqGKaO) |
+| 28  | [Github Profiles](https://github.com/nietoperq/50-projects-in-50-days/tree/main/28%20Github%20Profiles)                   | [Live Demo](https://codepen.io/nietoperq/full/KKJzeRo) |
+| 29  | [Double Click Heart](https://github.com/nietoperq/50-projects-in-50-days/tree/main/29%20Double%20Click%20Heart)           | [Live Demo](https://codepen.io/nietoperq/full/JjxKNKm) |
+| 30  | [Auto Text Effect](https://github.com/nietoperq/50-projects-in-50-days/tree/main/30%20Auto%20Text%20Effect)               | [Live Demo](https://codepen.io/nietoperq/full/qBvOjxG) |
