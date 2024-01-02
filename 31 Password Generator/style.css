@@ -1,0 +1,104 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --primary-color: #a876aa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0;
+}
+
+.fa-lock {
+  width: 100%;
+  text-align: center;
+  font-size: 4rem;
+}
+
+h2 {
+  margin: 10px 0 20px 0;
+  text-align: center;
+
+}
+
+.container {
+  background-color: #fff;
+  color: var(--primary-color);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 40px;
+  width: 400px;
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.result-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 1px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 50px;
+}
+
+.result-container #result {
+  word-wrap: break-word;
+}
+
+.setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  scale: 1.05;
+}
+
+.btn:active {
+  scale: 0.95;
+}
+
+.btn.btn-large {
+  width: 100%;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+input {
+  accent-color: var(--primary-color);
+}
+
+input[type=number] {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  outline: 3px solid var(--primary-color);
+  border-radius: 50px;
+  padding: 0 5px;
+}

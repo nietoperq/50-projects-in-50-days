@@ -36,3 +36,4 @@ Based on projects from Brad Traversy and Florin Pop's course: [50 Projects in 50
 | 28  | [Github Profiles](https://github.com/nietoperq/50-projects-in-50-days/tree/main/28%20Github%20Profiles)                   | [Live Demo](https://codepen.io/nietoperq/full/KKJzeRo) |
 | 29  | [Double Click Heart](https://github.com/nietoperq/50-projects-in-50-days/tree/main/29%20Double%20Click%20Heart)           | [Live Demo](https://codepen.io/nietoperq/full/JjxKNKm) |
 | 30  | [Auto Text Effect](https://github.com/nietoperq/50-projects-in-50-days/tree/main/30%20Auto%20Text%20Effect)               | [Live Demo](https://codepen.io/nietoperq/full/qBvOjxG) |
+| 31  | [Password Generator](https://github.com/nietoperq/50-projects-in-50-days/tree/main/31%20Password%20Generator)             | [Live Demo](https://codepen.io/nietoperq/full/yLwYQJX) |
