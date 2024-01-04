@@ -1,0 +1,116 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  width: 200px;
+}
+
+.toggle {
+  visibility: hidden;
+}
+
+.label {
+  position: relative;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 15px 0;
+  transition: 0.3s linear;
+}
+
+.label .background {
+  position: relative;
+  background-color: #d0d0d0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.label .checked {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  color: #fff;
+  transform: translateY(-50%);
+}
+
+.label .background .fill {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #a876aa;
+  transform: translateX(-100%);
+  transition: 0.3s linear;
+}
+
+.toggle:checked+.label .fill {
+  transform: translateX(0);
+}
+
+.ball {
+  background: #fff;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  animation: slideOff 0.3s linear forwards;
+  z-index: 100;
+}
+
+.toggle:checked+.label .ball {
+  animation: slideOn 0.3s linear forwards;
+}
+
+
+
+@keyframes slideOn {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(22px);
+  }
+
+  100% {
+    transform: translateX(42px);
+  }
+}
+
+@keyframes slideOff {
+  0% {
+    transform: translateX(42px) scale(1);
+  }
+
+  50% {
+    transform: translateX(22px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
