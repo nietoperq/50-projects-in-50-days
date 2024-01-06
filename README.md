@@ -38,3 +38,4 @@ Based on projects from Brad Traversy and Florin Pop's course: [50 Projects in 50
 | 30  | [Auto Text Effect](https://github.com/nietoperq/50-projects-in-50-days/tree/main/30%20Auto%20Text%20Effect)               | [Live Demo](https://codepen.io/nietoperq/full/qBvOjxG) |
 | 31  | [Password Generator](https://github.com/nietoperq/50-projects-in-50-days/tree/main/31%20Password%20Generator)             | [Live Demo](https://codepen.io/nietoperq/full/yLwYQJX) |
 | 32  | [Good Cheap Fast](https://github.com/nietoperq/50-projects-in-50-days/tree/main/32%20Good%20Cheap%20Fast)                 | [Live Demo](https://codepen.io/nietoperq/full/vYPLzRy) |
+| 33  | [Notes App](https://github.com/nietoperq/50-projects-in-50-days/tree/main/33%20Notes%20App)                 | [Live Demo](https://codepen.io/nietoperq/full/yLwOoYp) |

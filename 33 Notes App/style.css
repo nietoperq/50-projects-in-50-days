@@ -1,0 +1,114 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+  transition: 0.2s ease;
+
+}
+
+body {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-top: 3rem;
+}
+
+body:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  backdrop-filter: brightness(60%);
+  z-index: -1;
+}
+
+
+.add {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.add:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.note {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  margin: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 400px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px, #ffffff2c 0.5px 0.5px 0px 0px;
+  ;
+}
+
+.note .tools {
+  border-bottom: 1px solid #ffffff2c;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+}
+
+.note .tools button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.note .main {
+  padding: 1rem;
+}
+
+.note .main p {
+  margin: 0;
+}
+
+.note textarea {
+  background: transparent;
+  color: #fff;
+  outline: 2px solid rgba(255, 255, 255, 0.5);
+  font-family: inherit;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.delete:hover i {
+  color: #ce4747;
+}
+
+.edit:hover i,
+.edit.active i {
+  color: #a876aa;
+}
