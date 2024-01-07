@@ -1,0 +1,173 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --primary-color: #a876aa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h4 {
+  font-size: 20px;
+  margin: 5px;
+  text-transform: uppercase;
+  color: #444;
+}
+
+.counter {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.counter.hidden {
+  transform: translate(-50%, -50%) scale(0);
+  animation: hide .2s ease-out;
+}
+
+.final {
+  color: #444;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.final.show {
+  transform: translate(-50%, -50%) scale(1);
+  animation: show .2s ease-out;
+
+}
+
+.final.show h1 {
+  animation: shake 1s ease infinite;
+}
+
+.nums {
+  color: var(--primary-color);
+  font-size: 50px;
+  position: relative;
+  overflow: hidden;
+  width: 250px;
+  height: 50px;
+}
+
+.nums span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(120deg);
+  transform-origin: bottom center;
+}
+
+.nums span.in {
+  transform: translate(-50%, -50%) rotate(0deg);
+  animation: goIn .5s ease-in-out;
+}
+
+.nums span.out {
+  animation: goOut .5s ease-in-out;
+}
+
+button#replay {
+  border: 1px solid #999;
+  font-size: 11px;
+  letter-spacing: 1px;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button#replay:hover {
+  transform: translateY(-2px);
+}
+
+button#replay:active {
+  transform: translateY(2px);
+}
+
+@keyframes hide {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+}
+
+
+@keyframes show {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+
+  30% {
+    transform: translate(-50%, -50%) scale(1.4);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes goIn {
+  0% {
+    transform: translate(-50%, -50%) rotate(120deg);
+  }
+
+  30% {
+    transform: translate(-50%, -50%) rotate(-20deg);
+  }
+
+  60% {
+    transform: translate(-50%, -50%) rotate(10deg);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+
+@keyframes goOut {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  60% {
+    transform: translate(-50%, -50%) rotate(20deg);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(-120deg);
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(-5deg);
+  }
+
+  60% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(-5deg);
+  }
+}
