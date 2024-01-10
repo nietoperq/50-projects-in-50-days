@@ -1,0 +1,95 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+  color: #555;
+  font-family: 'Karla', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+h1 {
+  letter-spacing: 3px;
+}
+
+.poke-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.pokemon {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.pokemon:after {
+  content: '';
+  position: absolute;
+  background: rgb(255, 255, 255, 0.4);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.3) 100%);
+  top: -55%;
+  left: -60%;
+  width: 100%;
+  height: 200%;
+  transform: rotate(30deg);
+  z-index: 100;
+}
+
+.pokemon .number {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  border-radius: 0 0 0 10px;
+  font-size: .8em;
+  z-index: 1;
+}
+
+.pokemon .img-container {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  position: relative;
+}
+
+.pokemon .img-container img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 130px;
+  margin-top: 20px;
+}
+
+.pokemon .info {
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+.pokemon .info .name {
+  margin: 15px 0 7px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
