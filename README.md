@@ -43,3 +43,4 @@ Based on projects from Brad Traversy and Florin Pop's course: [50 Projects in 50
 | 35  | [Image Carousel](https://github.com/nietoperq/50-projects-in-50-days/tree/main/35%20Image%20Carousel)                     | [Live Demo](https://codepen.io/nietoperq/full/poYbgLL) |
 | 36  | [Hoverboard](https://github.com/nietoperq/50-projects-in-50-days/tree/main/36%20Hoverboard)                               | [Live Demo](https://codepen.io/nietoperq/full/wvOWYyj) |
 | 37  | [Pokedex](https://github.com/nietoperq/50-projects-in-50-days/tree/main/37%20Pokedex)                                     | [Live Demo](https://codepen.io/nietoperq/full/RwdGpNd) |
+| 39  | [Mobile Tab Navigation](https://github.com/nietoperq/50-projects-in-50-days/tree/main/38%20Mobile%20Tab%20Navigation)     | [Live Demo](https://codepen.io/nietoperq/full/dyrpgBN) |

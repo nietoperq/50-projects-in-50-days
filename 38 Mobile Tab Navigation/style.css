@@ -1,0 +1,132 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --phone-color: #444252;
+  --accent-color: #c7b0c3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.phone {
+  position: relative;
+  border: 7px solid var(--phone-color);
+  border-radius: 20px;
+  height: 600px;
+  width: 320px;
+}
+
+.phone:after {
+  content: '';
+  position: absolute;
+  width: 500px;
+  height: 660px;
+  background-color: rgba(0, 0, 0, 0.05);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
+  bottom: 0;
+  left: 0;
+  transform: rotate(27deg);
+  transform-origin: bottom left;
+  z-index: -1;
+}
+
+.phone-screen {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+
+.phone-btn {
+  position: absolute;
+  background-color: var(--phone-color);
+  width: 10px;
+  height: 50px;
+  z-index: 100;
+}
+
+#phone-btn-1 {
+  top: 100px;
+  left: -10px;
+  border-radius: 5px 0 0 5px;
+}
+
+#phone-btn-2 {
+  top: 160px;
+  left: -10px;
+  border-radius: 5px 0 0 5px;
+}
+
+#phone-btn-3 {
+  top: 100px;
+  right: -10px;
+  height: 100px;
+  border-radius: 0 5px 5px 0;
+}
+
+
+.phone .content {
+  opacity: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: calc(100% - 60px);
+  width: 100%;
+  transition: opacity 0.4s ease;
+}
+
+.phone .content.show {
+  opacity: 1;
+}
+
+nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-top: -5px;
+  width: 100%;
+}
+
+nav ul {
+  background-color: #fff;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 60px;
+}
+
+nav li {
+  color: #777;
+  cursor: pointer;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul li p {
+  font-size: 12px;
+  margin: 2px 0;
+}
+
+nav ul li:hover,
+nav ul li.active {
+  color: var(--accent-color);
+  font-weight: 900;
+}
