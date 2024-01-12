@@ -45,3 +45,4 @@ Based on projects from Brad Traversy and Florin Pop's course: [50 Projects in 50
 | 37  | [Pokedex](https://github.com/nietoperq/50-projects-in-50-days/tree/main/37%20Pokedex)                                               | [Live Demo](https://codepen.io/nietoperq/full/RwdGpNd) |
 | 38  | [Mobile Tab Navigation](https://github.com/nietoperq/50-projects-in-50-days/tree/main/38%20Mobile%20Tab%20Navigation)               | [Live Demo](https://codepen.io/nietoperq/full/dyrpgBN) |
 | 39  | [Password Strength Background](https://github.com/nietoperq/50-projects-in-50-days/tree/main/39%20Password%20Strength%20Background) | [Live Demo](https://codepen.io/nietoperq/full/PoLbmVK) |
+| 40  | [3d Background Boxes](https://github.com/nietoperq/50-projects-in-50-days/tree/main/40%203d%20Background%20Boxes)                   | [Live Demo](https://codepen.io/nietoperq/full/YzgpQzZ) |

@@ -1,0 +1,99 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.magic {
+  background-color: #9F73AB;
+  color: #fff;
+  font-family: inherit;
+  border: 0;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 16px;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  letter-spacing: 1px;
+}
+
+.magic i {
+  transition: .4s ease;
+}
+
+.magic:hover i {
+  transform: rotateZ(360deg);
+}
+
+.magic:focus {
+  outline: none;
+}
+
+.magic:active {
+  box-shadow: none;
+  transform: translateY(2px);
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 400px;
+  width: 400px;
+  position: relative;
+  transition: .4s ease;
+}
+
+.boxes.big {
+  height: 490px;
+  width: 490px;
+}
+
+.boxes.big .box {
+  transform: rotateZ(360deg);
+}
+
+.box {
+  background-image: url('https://media0.giphy.com/media/dn12b0TGWufPpdoSTv/giphy.gif?cid=ecf05e47nid04q58erg8r2taffiy3spmdbkxdrnd5fhflmez&ep=v1_gifs_search&rid=giphy.gif&ct=g');
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+  position: relative;
+  height: 100px;
+  width: 100px;
+  transition: .4s ease;
+}
+
+.box::after {
+  content: '';
+  background-color: #9F73AB;
+  position: absolute;
+  top: 8px;
+  right: -15px;
+  height: 100%;
+  width: 15px;
+  transform: skewY(45deg);
+}
+
+.box::before {
+  content: '';
+  background-color: #624F82;
+  position: absolute;
+  bottom: -15px;
+  left: 8px;
+  height: 15px;
+  width: 100%;
+  transform: skewX(45deg);
+}
