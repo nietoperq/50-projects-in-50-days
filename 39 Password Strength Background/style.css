@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.background {
+  background: url('https://images.pexels.com/photos/4386357/pexels-photo-4386357.jpeg') no-repeat center center/cover;
+  position: absolute;
+  top: -50px;
+  bottom: -50px;
+  left: -50px;
+  right: -50px;
+  z-index: -1;
+  filter: blur(20px);
+}
