@@ -1,0 +1,116 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #eee;
+  color: #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 320px;
+  position: relative;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.header {
+  display: flex;
+  background-color: #fff;
+  padding: 30px 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  position: relative;
+}
+
+.header input {
+  font-family: inherit;
+  border: 0;
+  background-color: #f3f3f3;
+  border-radius: 50px;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.header i {
+  padding: 10px 0 10px 10px;
+  color: #777;
+}
+
+.header button:hover {
+  transform: translateY(-2px);
+}
+
+.header button:active {
+  transform: translateY(2px);
+}
+
+.header input:focus {
+  outline: none;
+}
+
+.user-list {
+  background-color: #fff;
+  list-style-type: none;
+  margin: 0;
+  height: 400px;
+  overflow-y: auto;
+  padding: 0;
+}
+
+.user-list li {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.user-list img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+}
+
+.user-list .user-info {
+  margin-left: 15px;
+}
+
+.user-list .user-info h4 {
+  margin: 0;
+}
+
+.user-list .user-info p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.user-list li:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+
+.user-list li.hide {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #999;
+}

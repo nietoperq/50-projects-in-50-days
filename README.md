@@ -47,3 +47,4 @@ Based on projects from Brad Traversy and Florin Pop's course: [50 Projects in 50
 | 39  | [Password Strength Background](https://github.com/nietoperq/50-projects-in-50-days/tree/main/39%20Password%20Strength%20Background) | [Live Demo](https://codepen.io/nietoperq/full/PoLbmVK) |
 | 40  | [3d Background Boxes](https://github.com/nietoperq/50-projects-in-50-days/tree/main/40%203d%20Background%20Boxes)                   | [Live Demo](https://codepen.io/nietoperq/full/YzgpQzZ) |
 | 41  | [Verify Account UI](https://github.com/nietoperq/50-projects-in-50-days/tree/main/41%20Verify%20Account%20UI)                       | [Live Demo](https://codepen.io/nietoperq/full/XWGNapa) |
+| 42  | [Live User Filter](https://github.com/nietoperq/50-projects-in-50-days/tree/main/42%20Live%20User%20Filter)                         | [Live Demo](https://codepen.io/nietoperq/full/KKEWwNP) |
