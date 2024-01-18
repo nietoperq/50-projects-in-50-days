@@ -49,3 +49,4 @@ Based on projects from Brad Traversy and Florin Pop's course: [50 Projects in 50
 | 41  | [Verify Account UI](https://github.com/nietoperq/50-projects-in-50-days/tree/main/41%20Verify%20Account%20UI)                       | [Live Demo](https://codepen.io/nietoperq/full/XWGNapa) |
 | 42  | [Live User Filter](https://github.com/nietoperq/50-projects-in-50-days/tree/main/42%20Live%20User%20Filter)                         | [Live Demo](https://codepen.io/nietoperq/full/KKEWwNP) |
 | 43  | [Feedback UI Design](https://github.com/nietoperq/50-projects-in-50-days/tree/main/43%20Feedback%20UI%20Design)                     | [Live Demo](https://codepen.io/nietoperq/full/mdoWPKJ) |
+| 44  | [Custom Range Slider](https://github.com/nietoperq/50-projects-in-50-days/tree/main/44%20Custom%20Range%20Slider)                   | [Live Demo](https://codepen.io/nietoperq/full/jOJmOvp) |
