@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--=============== FONT AWESOME ===============-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="style.css" />
+  <title>Testimonial Box Switcher</title>
+</head>
+
+<body>
+
+  <!-- 
+  Design inspiration from Dribbble:
+  "Day 024 — Testimonials | 100 days UI challenge" by Dima Groshev
+  Link: https://dribbble.com/shots/19211573-Day-024-Testimonials-100-days-UI-challenge
+-->
+
+  <div class="testimonial-container">
+    <div class="btn" id="btn-prev"><i class="fa-solid fa-chevron-left"></i></div>
+    <div class="btn" id="btn-next"><i class="fa-solid fa-chevron-right"></i></div>
+    <div class="stars">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+    </div>
+    <p class="testimonial">
+      I've worked with literally hundreds of HTML/CSS developers and I have to
+      say the top spot goes to this guy. This guy is an amazing developer. He
+      stresses on good, clean code and pays heed to the details. I love
+      developers who respect each and every aspect of a throughly thought out
+      design and do their best to put it in code. He goes over and beyond and
+      transforms ART into PIXELS - without a glitch, every time.
+    </p>
+    <div class="user">
+      <img src="https://randomuser.me/api/portraits/women/46.jpg" alt="user" class="user-image" />
+      <div class="user-details">
+        <h4 class="username">Miyah Myles</h4>
+        <p class="role">Marketing</p>
+      </div>
+    </div>
+    <div class="progress-dots" id="progress-dots"></div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

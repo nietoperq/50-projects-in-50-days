@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 10px;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  gap: 2rem;
+  background-color: #fff;
+  color: #333;
+  border-radius: 15px;
+  margin: 20px auto;
+  padding: 50px 80px;
+  width: 800px;
+  min-height: 430px;
+  position: relative;
+}
+
+.stars {
+  font-size: 14px;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: 900;
+  height: 100%;
+  line-height: 28px;
+  margin: 0;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.user .user-image {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.user .user-details {
+  text-align: center;
+}
+
+.user .username {
+  margin: 0;
+  font-size: 14px;
+}
+
+.user .role {
+  margin: 0;
+  font-size: 12px;
+}
+
+.progress-dots {
+  display: flex;
+  gap: 5px;
+}
+
+.progress-dot {
+  width: 5px;
+  height: 5px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.progress-dot.active {
+  background-color: #555;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eee;
+  font-size: 10px;
+  cursor: pointer;
+  transition: 0.1s ease;
+}
+
+.btn:hover {
+  background-color: #eee;
+}
+
+#btn-prev {
+  left: 25px;
+}
+
+#btn-next {
+  right: 25px;
+}

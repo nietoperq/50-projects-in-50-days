@@ -52,3 +52,4 @@ Based on projects from Brad Traversy and Florin Pop's course: [50 Projects in 50
 | 44  | [Custom Range Slider](https://github.com/nietoperq/50-projects-in-50-days/tree/main/44%20Custom%20Range%20Slider)                   | [Live Demo](https://codepen.io/nietoperq/full/jOJmOvp) |
 | 45  | [Netflix Mobile Navigation](https://github.com/nietoperq/50-projects-in-50-days/tree/main/45%20Netflix%20Mobile%20Navigation)       | [Live Demo](https://codepen.io/nietoperq/full/zYbwKPq) |
 | 46  | [Quiz App](https://github.com/nietoperq/50-projects-in-50-days/tree/main/46%20Quiz%20App)                                           | [Live Demo](https://codepen.io/nietoperq/full/JjzJRZR) |
+| 47  | [Testimonial Box Switcher](https://github.com/nietoperq/50-projects-in-50-days/tree/main/47%20Testimonial%20Box%20Switcher)         | [Live Demo](https://codepen.io/nietoperq/full/KKEvraN) |
