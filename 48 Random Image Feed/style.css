@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.title {
+  margin: 2rem 0;
+  font-size: 20px;
+  text-align: center;
+  color: #555;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+}
+
+.img-container {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.user-info .pfp {
+  object-fit: cover;
+  margin: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  outline: 2px solid #fff;
+  margin: 0;
+}
+
+.pfp-container {
+  background: rgb(188, 24, 136);
+  background: linear-gradient(205deg, rgba(188, 24, 136, 1) 0%, rgba(220, 39, 67, 1) 40%, rgba(240, 148, 51, 1) 82%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+
+.username {
+  font-weight: 600;
+}
+
+.timestamp {
+  color: #555;
+}
+
+.user-info i {
+  margin-left: auto;
+}
+
+.photo {
+  object-fit: cover;
+  margin: 10px;
+  height: 400px;
+  width: 400px;
+  max-width: 100%;
+  background: transparent url("https://cdn.pixabay.com/animation/2023/05/02/04/29/04-29-03-511_512.gif") center center no-repeat;
+  background-size: 50px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+}
+
+.img-info {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding: 0 15px;
+}
+
+i {
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  font-size: 22px;
+  gap: 15px;
+}
+
+.buttons i:hover {
+  color: #888;
+}
+
+i:last-child {
+  margin-left: auto;
+}
+
+.likes {
+  font-weight: 600;
+  margin: 0;
+}
+
+.description {
+  display: flex;
+  gap: 5px;
+  margin: 0;
+}
+
+.clickable-span {
+  color: #888;
+  cursor: pointer;
+}
+
+.comment {
+  display: flex;
+}
+
+.comment i {
+  font-size: 12px;
+  color: #888
+}
+
+input {
+  border: none;
+  font: inherit;
+  width: 100%;
+  padding: 0;
+}
+
+input:focus {
+  outline: none;
+}
