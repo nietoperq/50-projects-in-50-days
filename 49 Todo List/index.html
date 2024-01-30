@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="style.css" />
+  <title>Todo List</title>
+</head>
+
+<body>
+  <h1>My tasks</h1>
+  <form id="form">
+    <label for="input-text">Enter your task</label>
+    <input type="text" class="input" id="input-text" placeholder="Enter your task" autocomplete="off">
+    <label for="input-date">Enter due date</label>
+    <input type="date" class="input" id="input-date">
+    <button id="add-task">Add</button>
+  </form>
+
+  <small>Left click to toggle completed. <br>Right click to delete todo.</small>
+
+  <ul class="todos" id="todos">
+
+  </ul>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --accent-color: #c7b0c3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #eee;
+  color: #444;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: var(--accent-color);
+  text-align: center;
+}
+
+form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 100%;
+  width: 400px;
+  position: relative;
+}
+
+label {
+  color: var(--accent-color);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.input {
+  border: none;
+  color: #444;
+  background-color: #f7f7f7;
+  padding: 1rem 2rem;
+  margin: .5rem 0 1rem 0;
+  border-radius: 5rem;
+  font-family: inherit;
+  display: block;
+  width: 100%;
+}
+
+.input::placeholder {
+  color: #d5d5d5;
+}
+
+.input:focus {
+  outline-color: var(--accent-color);
+}
+
+button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background-color: var(--accent-color);
+  border: none;
+  color: #fff;
+  font-family: inherit;
+  font-weight: 900;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+.todos {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  min-width: 400px;
+}
+
+.todos li {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  margin: 0.5rem 0;
+  border-radius: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.todos li .todo {
+  margin-right: 2rem;
+}
+
+.todos li .due-date {
+  color: var(--accent-color);
+  font-size: 14px;
+}
+
+.todos li.completed {
+  color: #b6b6b6;
+  text-decoration: line-through;
+}
+
+small {
+  color: #b5b5b5;
+  margin-top: 3rem;
+  text-align: center;
+}
