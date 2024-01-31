@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d4c5a2;
+  color: #fffdf1;
+  font-family: 'Single Day', sans-serif;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+h1,
+h3 {
+  font-size: 4rem;
+  margin: 1rem;
+  text-shadow: .2rem .2rem #B99470;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+  margin: 0;
+  text-shadow: .1rem .1rem #B99470;
+
+}
+
+#game-container {
+  background-color: #A9B388;
+}
+
+.btn {
+  border: 0;
+  background: url("https://static.vecteezy.com/system/resources/thumbnails/018/062/502/small/wooden-badge-banner-wooden-plank-plate-png.png");
+  background-size: 100% 100%;
+  color: inherit;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+  font-family: inherit;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-0.1rem);
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  transition: margin 0.5s ease-out;
+}
+
+.screen.up {
+  margin-top: -100vh;
+}
+
+.game-container {
+  position: relative;
+}
+
+.time,
+.score {
+  position: absolute;
+  top: 20px;
+}
+
+.time {
+  left: 20px;
+}
+
+.score {
+  right: 20px;
+}
+
+.insect {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.insect.caught {
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.insect img {
+  width: 100px;
+  height: 100px;
+}
+
+.endgame-img {
+  width: 250px;
+  margin: 1rem;
+}
+
+img {
+  filter: saturate(80%) brightness(110%) contrast(90%);
+}

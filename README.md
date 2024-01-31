@@ -55,3 +55,4 @@ Based on projects from Brad Traversy and Florin Pop's course: [50 Projects in 50
 | 47  | [Testimonial Box Switcher](https://github.com/nietoperq/50-projects-in-50-days/tree/main/47%20Testimonial%20Box%20Switcher)         | [Live Demo](https://codepen.io/nietoperq/full/KKEvraN) |
 | 48  | [Random Image Feed](https://github.com/nietoperq/50-projects-in-50-days/tree/main/48%20Random%20Image%20Feed)                       | [Live Demo](https://codepen.io/nietoperq/full/PoLJqqR) |
 | 49  | [Todo List](https://github.com/nietoperq/50-projects-in-50-days/tree/main/49%20Todo%20List)                                         | [Live Demo](https://codepen.io/nietoperq/full/KKEQvxW) |
+| 50  | [Insect Catch Game](https://github.com/nietoperq/50-projects-in-50-days/tree/main/50%20Insect%20Catch%20Game)                       | [Live Demo](https://codepen.io/nietoperq/full/GReQPeK) |
